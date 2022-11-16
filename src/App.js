@@ -1,9 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Highlights from "./components/highlights/highlights";
 
-function App () {
+function App() {
   return (
     <div className="App">
+      <Highlights />
     </div>
   );
 }
