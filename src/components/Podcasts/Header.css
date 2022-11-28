@@ -1,0 +1,130 @@
+.Container{
+
+    width: 1525px;
+    height: 440px;
+    left: 0px;
+
+    
+    background: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.3);
+}
+.Container1{
+   
+    
+    width: 1272px;
+    height: 323px;
+   
+    top: 170px;
+    margin-top: 4%;
+    background: #ffffff;
+}
+.ContainerImg{
+   position: relative;
+    width: 859px;
+    height: 423px;
+    margin-left: 15%;
+    justify-content: center;
+    background: url("https://images.unsplash.com/photo-1485579149621-3123dd979885?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cG9kY2FzdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+    border-radius: 11px;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    
+};
+.ContainerImg-a{
+   
+width: 335px;
+height: 36px;
+left: 553px;
+top: 133px;
+
+
+
+
+}
+.ContainerImg-a-1{
+   
+    width: 278px;
+    height: 26px;
+    left: 582px;
+    top: 368px;
+   background-color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 31.5%;
+    /* or 26px */
+    
+ 
+    color: #202124;
+    
+}
+.ContainerImg-a-1 h3{
+    padding-top: 3%;
+    padding-left: 2%;
+}
+.Container2{
+    width: 1525px;
+    height: 2907px;
+    /* left: 0px;
+
+    margin-top: 0%;
+    padding-top: 0%;
+    padding: 0%; */
+    background: linear-gradient(225.69deg, rgba(255, 197, 48, 0.0455) -2.08%, rgba(255, 197, 48, 0.0455) -2.07%, rgba(255, 197, 48, 0.0095) 74.7%), linear-gradient(138.48deg, rgba(86, 36, 208, 0.038) 12.76%, rgba(86, 36, 208, 0) 76.52%);
+}
+.Container2-text h3{
+    /* position: relative; */
+/* width: 274px;
+height: 60px; */
+/* left: 583px; */
+
+margin-top: 8%;
+padding-top: 0.8%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+/* identical to box height */
+margin-bottom: 0%;
+/* display: flex; */
+/* align-items: center; */
+text-align: center;
+
+color: #5624D0;
+
+}
+.slider{
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 10px;
+}
+.Container2-Slider{
+   
+    width: 200px;
+    height: 0px;
+    margin-left: 43%;
+    margin-top: 0%;
+    margin-bottom: 15px;
+    position: relative;
+    /* padding-top:0%; */
+    /* top: 753px; */
+    display: flex;
+    border:5px solid #858585;
+    transform: rotate(180deg);
+    
+}
+.dot{
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+   margin-left: 48%;
+   padding-top: 0%;
+   /* margin: 2%; */
+    background: #858585;
+  }
