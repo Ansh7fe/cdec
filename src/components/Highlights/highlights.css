@@ -1,0 +1,182 @@
+.Title {
+    padding: 15px;
+    width: 100%;
+    height: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    margin-top: 20px;
+    color: #5624D0;
+}
+
+.cover {
+    /* /* position: absolute; */
+    width: 323px;
+    height: 323px;
+    background: linear-gradient(95.5deg #DBCCFF 153.08%);
+    border-radius: 6px;
+    z-index: 0;
+}
+
+
+.Event {
+    width: 323px;
+    height: 323px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.banner {
+    position: absolute;
+    width: 323px;
+    height: 85px;
+    left: 0px;
+    top: 238px;
+    background: linear-gradient(95.5deg, #5624D0 0%, #DBCCFF 153.08%);
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 6px 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+
+}
+
+.Hsection {
+    margin: 10px 10px;
+
+}
+
+.banner_content {
+    position: absolute;
+    width: 274px;
+    height: 56px;
+
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 112%;
+    /* or 28px */
+
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.Event:hover .cover {
+    filter: brightness(30%);
+    -webkit-transition: all 10ms ease;
+    -moz-transition: all 10ms ease;
+    -o-transition: all 10ms ease;
+    -ms-transition: all 10ms ease;
+    transition: all 10ms ease;
+}
+
+.Event:hover .banner {
+    display: none;
+
+}
+
+.Event:hover .banner_hover {
+
+    display: block;
+
+}
+
+.banner_hover {
+    display: none;
+}
+
+.banner_content_hover {
+
+
+    position: absolute;
+    width: 230px;
+    height: 48px;
+    left: 51px;
+    top: 155px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 112%;
+    /* or 24px */
+
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    text-align: left;
+
+}
+
+.watch_btn {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 7px 21px;
+    gap: 10px;
+
+    position: absolute;
+    width: 123px;
+    height: 34px;
+    left: 51px;
+    top: 220px;
+
+    background: linear-gradient(95.42deg, #5624D0 0%, #DBCCFF 122.03%);
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.btn_text {
+    width: fit-content;
+    height: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.highlightContainer {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+    /* padding: 10px 30px; */
+    justify-content: center;
+}
+
+.highlightCard {
+    border: 1px solid #5624D0;
+    background-color: #FFFFFF;
+    margin: 1em;
+}
+
+.watch_btn:hover {
+    background: linear-gradient(95.42deg, #5624D0 0%, #8272a8 122.03%);
+
+}
