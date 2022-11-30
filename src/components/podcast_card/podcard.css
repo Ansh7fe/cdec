@@ -38,15 +38,12 @@ margin-top: 20px;
 color: #5624D0;
 }
 
-.cover
+.cover1
 {
     
     position: absolute;
     width: 370px;
     height: 261px;
-   
-
-
 background: url("/public/images/podcast.png"), #D9D9D9;
 border-radius: 6px;
 z-index: 0;
@@ -58,7 +55,7 @@ z-index: 0;
     width: 60%;
     display: flex;
     margin: auto;
-    background-color: #f2eaea;
+    background-color: #ffffff;
     padding: 10px 30px;
     flex-wrap: wrap;
     justify-content: center;

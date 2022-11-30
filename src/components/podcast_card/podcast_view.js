@@ -5,7 +5,7 @@ import "./podcard.css";
 function Podcast_view() {
   return (
     <div className="Viewsection">
-      <div className="Title">Our View</div>
+      <div className="Title">Our Podcast</div>
       <div className="flexbox">
         <Card />
         <Card />

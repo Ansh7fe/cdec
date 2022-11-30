@@ -5,7 +5,7 @@ function PodCard() {
   return (
     <div className="Card">
       <div className="container">
-        <div className="cover"></div>
+        <div className="cover1"></div>
         <div className="podcastTitle">Podcast 2</div>
         <div className="podcastby">By Radhakrishanan</div>
         <div className="bypost">Assistance Prof. at MNIT Jaipur (CSE Dep.)</div>
