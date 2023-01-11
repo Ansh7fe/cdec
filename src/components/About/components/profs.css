@@ -1,98 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-
-.pfull {
+.pfull{
     align-self: center;
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    width: 100vw;
+    align-items: center;
 }
-
-.image1 {
+.image1{
     display: block;
     border-radius: 6px;
     filter: brightness(25%);
-    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
-    /* width: 196px;
-    height: 196px; */
-    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)); */
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
 }
-
-.image2 {
+.image2{
     display: block;
     border-radius: 6px;
-    /* width: 196px;
-    height: 196px; */
-    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
-    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)); */
+    width: 100%;
+    max-width: 100%;
+    /* height: ; */
+    
 }
-
-.psmall {
+.psmall{
+    align-self: center;
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px 10px 0px 35px;
-    color: #FFFFFF;
+    color:#FFFFFF;
     font-family: 'Poppins';
     height: 50px;
     font-size: 20px;
-    margin-left: 70px;
-    margin-top: 0;
-    margin-right: 70px;
+
     font-weight: bolder;
     background: linear-gradient(90deg, #5624D0 0%, #DBCCFF 91.8%);
+    width: 80%;
 }
-
-.profprops {
+.profprops{
+    max-width: 80vw;
+    width: auto;
     display: flex;
     margin-top: 40px;
-    /* margin-left: 100px;
-    margin-right: 100px; */
     align-self: center;
+    margin-bottom: 30px;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    justify-content:flex-start;
 }
 
-.pdata1 {
+.pdata1{
     position: relative;
-    top: 100px;
-    left: 20px;
+    top: -110px;
+    left: 5px;
     width: 156px;
-    height: 53px;
     font-family: 'Poppins';
     font-weight: 200;
     font-size: 9.5px;
-    line-height: 1.2;
-    /* or 17px */
+    line-height: 10px;
     letter-spacing: 0.04em;
-
-    color: #5624D0;
-
-
-    /* Inside auto layout */
+    color:white;
     flex: none;
     order: 0;
     flex-grow: 0;
 }
-
-.pdata2 {
+.pdata2{
     display: none;
 }
-
-.pprop1 {
-    width: 196px;
-    height: 196px;
-    margin-right: 20px;
-    margin-left: 20px;
-    /* background: linear-gradient(0deg, #5624D0, #5624D0); */
+.pprop1{
+    width: 180px;
+    height: 160px;
+    min-width: 180px;
+    margin-right: 10px;
+    margin-left: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 6px;
-}
-
-.pprop2 {
-    width: 196px;
-    height: 196px;
-    margin-right: 20px;
-    margin-left: 20px;
-    /* background: linear-gradient(0deg, #5624D0, #5624D0); */
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
     border-radius: 6px;
 }

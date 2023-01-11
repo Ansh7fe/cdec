@@ -1,12 +1,12 @@
-import React, { useState } from "react";
+import React,{ useState } from "react";
 import "./profs.css";
-function Professor (props) {
-    const [isMousedOver, setMouseOver] = useState(false);
-    function handleMouseOver () {
+function Professor(props) {
+    const [isMousedOver,setMouseOver]=useState(false);
+    function handleMouseOver(){
         // console.log(isMousedOver);
         setMouseOver(true);
     }
-    function handleMouseOut () {
+    function handleMouseOut(){
         // console.log(isMousedOver);
         setMouseOver(false);
     }
@@ -18,8 +18,8 @@ function Professor (props) {
     // }
     return (
         <div onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} className="pprop1">
-            <img src={prof.img} className={isMousedOver ? "image1" : "image2"} />
-            <div className={isMousedOver ? "pdata1" : "pdata2"}>
+            <img src={prof.img} className={isMousedOver? "image1":"image2"}/>
+            <div className={isMousedOver? "pdata1":"pdata2"}>
                 <h3>{prof.post}</h3>
                 <h2>{prof.name}</h2>
                 <h3>{prof.des}</h3>
@@ -28,52 +28,52 @@ function Professor (props) {
         </div>
     );
 }
-function Profs () {
-
+function Profs(){
+    
     const professors = [
         {
-            post: "Faculty Coordinator",
+            post:"Faculty Coordinator",
             name: "Prof. Vijay Janyani",
-            des: "Proffessor",
-            dept: "Department of ECE",
-            img: '../../../src/assets/vj.png'
+            des:"Professor",
+            dept:"Department of ECE",
+            img:require('./vj.png')
         },
         {
-            post: "Convener",
+            post:"Convener",
             name: "Dr. Deepak Verma",
-            des: "Assistant Proffessor",
-            dept: "Department of Management Studies",
-            img: '../../../src/assets/dv.png'
+            des:"Assistant Professor",
+            dept:"Department of Management Studies",
+            img:require('./dv.png')
         },
         {
-            post: "Member",
+            post:"Member",
             name: "Dr Amit Joshi",
-            des: "Assistant Proffessor",
-            dept: "Department of ECE",
-            img: '../../../src/assets/aj.png'
+            des:"Assistant Professor",
+            dept:"Department of ECE",
+            img:require('./aj.png')
         },
         {
-            post: "Member",
+            post:"Member",
             name: "Dr. Priyanka Harjule",
-            des: "Assistant Proffessor",
-            dept: "Department of Mathematics",
-            img: '../../../src/assets/ph.png'
+            des:"Assistant Professor",
+            dept:"Department of Mathematics",
+            img:require('./ph.png')
         },
         {
-            post: "Member",
+            post:"Member",
             name: "Dr. Ashish Tripathi",
-            des: "Assistant Proffessor",
-            dept: "Department of CSE",
-            img: '../../../src/assets/at.png'
+            des:"Assistant Professor",
+            dept:"Department of CSE",
+            img:require('./at.png')
         }
     ]
-    return (
+    return(
         <div className="pfull">
             <div className="psmall">
-                <p>Our Proffessors</p>
+                <p>Our Professors</p>
             </div>
             <div className="profprops">
-                {professors.map(e => <Professor prof={e} />)}
+                {professors.map(e => <Professor prof={e}/>)}
             </div>
         </div>
     );

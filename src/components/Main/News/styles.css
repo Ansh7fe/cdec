@@ -1,0 +1,36 @@
+.newsFeed_container {
+    width: 85%;
+    margin: auto;
+    margin-top: 1em;
+}
+
+.about_container {
+    padding: 2em;
+    background-color: #efe8f7;
+}
+
+.news_container {
+    background-color: #faf2e2;
+}
+
+.knowMore_btn {
+    padding: 6px 14px;
+    background: #FFFFFF;
+    border: 2px solid #5624D0;
+    border-radius: 6px;
+    width: 95px;
+    height: 23px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #5624D0;
+}
+
+@media (max-width:800px) {
+    .newsFeed_container {
+        width: 100%;
+    }
+}

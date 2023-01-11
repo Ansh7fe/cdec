@@ -2,8 +2,12 @@
 .tfull{
     display: flex;
     flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
 }
 .tsmall{
+    width: 80%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -20,10 +24,7 @@
 }
 .tdata{
     position: relative;
-    top: 50px;
-    left: 10px;
-    right: 10px;
-    width: 156px;
+    width: 140px;
     height: 53px;
     text-align: center;
     font-family: 'Poppins';
@@ -43,17 +44,23 @@
 }
 .teamprops{
     display: flex;
+    max-width: 80%;
+    width: auto;
     margin-top: 40px;
     margin-left: 90px;
     margin-right: 90px;
     align-self: center;
+    overflow-x: scroll;
 }
+
 .tprop{
-    width: 179px;
-    height: 160px;
-    margin-right: 20px;
-    margin-left: 10px;
+    width: 140px;
+    height: 140px;
+    margin-right: 10px;
+    
     background: linear-gradient(0deg, #5624D0, #5624D0);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 6px;
+    display: flex;
+    align-items: center;
 }

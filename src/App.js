@@ -3,18 +3,20 @@ import React from 'react';
 import './App.css';
 import Imageslider from './components/Main/image_slider';
 import HomeHeader from './components/Main/HomeHeader';
-import News from './components/Main/News';
+import News from './components/Main/News/News';
 import HeaderImg from './components/Podcasts/Header';
-import NavBar from './components/navbar/navbar';
+import Navbar from './components/navbar/Navbar';
 import About from './components/About/About';
 import { Routes, Route, Link } from "react-router-dom";
 import Highlights from './components/Highlights/Highlights';
-import WatchNow from './components/Blogs/WatchNow';
+import WatchNow from './components/PodcastPage/WatchNow';
+import Blogs from './components/Blogs /blogs';
+import Footer from './components/Footer/Footer';
 function App () {
   return (
     <>
       <div className='nav_bar'>
-        <NavBar />
+        <Navbar />
       </div>
       <Routes>
         <Route path='/' element={[<Imageslider />, <News />, <Highlights />]} />
@@ -25,8 +27,10 @@ function App () {
       <Routes>
         <Route path='/podcast' element={<WatchNow />} />
       </Routes>
-
-
+      <Routes>
+        <Route path='/blog' element={<Blogs />} />
+      </Routes>
+      <Footer />
     </>
   );
 }

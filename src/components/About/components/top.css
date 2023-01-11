@@ -1,23 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
-.top {
-    /* position: absolute;
-    /*width: 1477px;
-    left: -17px;*/
-    height: 200px;
-    margin-top: -17px;
-    margin-left: -10px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../../assets/top.jpg');
-    /* filter: blur(2px); */
+body {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
 }
 
-.about_div {
-    width: 20%;
+.top {
+    min-height: 100px;
+    width: 100vw;
+}
+
+img {
+    object-fit: cover;
+    max-height: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+
+.aboutdiv {
+    align-self: center;
+    width: 0%;
 }
 
 .red_dot {
-    /* position: relative;
-    top: -105px; */
+    position: relative;
+    top: -105px;
     margin: 0;
     left: 724px;
     background: #FF6464;
@@ -27,8 +34,8 @@
 }
 
 .green_dot {
-    /* position: relative;
-    top: -125px; */
+    position: relative;
+    top: -125px;
     margin: 0;
     left: 750px;
     background: rgba(80, 159, 83, 0.78);
@@ -38,8 +45,8 @@
 }
 
 .yellow_dot {
-    /* position: relative;
-    top: -115px; */
+    position: relative;
+    top: -115px;
     margin: 0;
     left: 737px;
     background: rgba(255, 197, 48, 0.91);
@@ -52,7 +59,7 @@
     position: relative;
     /* width: 225px;
     height: 131px; */
-    left: -34%;
+    left: 34%;
     /* top: 148.74px; */
     top: 0px;
     font-family: 'Poppins';
@@ -62,22 +69,14 @@
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-}
 
-.dot_container {
-    position: relative;
-    left: 55%;
-    top: -50px;
-    width: 50px;
-    display: flex;
-    justify-content: space-around;
+    color: #FFFFFF;
 }
 
 .cdec {
     position: relative;
-    top: -100px;
-    left: 54%;
+    left: 51%;
+    top: -205px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -93,7 +92,7 @@
 .mj {
     position: relative;
     left: 53.5%;
-    top: -100px;
+    top: -260px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -104,4 +103,10 @@
     letter-spacing: 0.04em;
     color: #FFFFFF;
 
+}
+
+@media (max-width:800px) {
+    img {
+        height: 100px;
+    }
 }

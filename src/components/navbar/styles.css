@@ -1,0 +1,52 @@
+.logo_image {
+    height: 50px;
+    width: 50px;
+}
+
+.navbar_top {
+    padding: 10px;
+}
+
+.navbar_divider {
+    height: 40px;
+    width: 3px;
+    background-color: lightgray;
+}
+
+.navbar_socialLinks {
+    padding: 5px;
+}
+
+.socialLink {
+    padding: 0 3px;
+}
+
+
+.mobile_menu {
+    position: relative;
+    left: 150px;
+    width: 50%;
+    padding: 1em;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+    float: right;
+}
+
+.navbar_desktop {
+    background: linear-gradient(90deg, #5624D0 0%, #DBCCFF 100%);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+}
+
+.navbar_item {
+    text-decoration: none;
+}
+
+.navbar_item:hover {
+    color: gold;
+}
+
+@media (max-width:800px) {
+    .navbar_top {
+        display: none;
+    }
+}
