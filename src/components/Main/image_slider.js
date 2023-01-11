@@ -4,15 +4,16 @@ import React from "react";
 const images = [
 
   { url: 'https://cel.mnit.ac.in/static/images/about-img.jpg' },
-  { url: './assets/about-img 1.png' },
+  { url: 'https://mnit.ac.in/Images/about_images/vltcImg.png' },
+  { url: 'https://mnit.ac.in/students/images/mnit_infrastructure_photos_8.jpg' }
 ];
 
 const Imageslider = () => {
   return (
     <div className="slider_image">
       <SimpleImageSlider
-        width={1530}
-        height={504}
+        width="100%"
+        height='504px'
         images={images}
         showBullets={true}
         showNavs={true}

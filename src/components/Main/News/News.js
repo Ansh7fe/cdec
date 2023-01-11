@@ -26,7 +26,7 @@ const News = () => {
 						backgroundColor: '#fbedd1',
 						paddingLeft: '1em'
 					}}>
-						<Typography variant='h4' >NEWS AND ANNOUNCEMENT</Typography>
+						<Typography variant='h4' fontWeight='600'>NEWS AND ANNOUNCEMENT</Typography>
 
 					</Box>
 				</Grid>

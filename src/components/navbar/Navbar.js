@@ -87,10 +87,12 @@ const Navbar = () => {
         </Stack>
         {isClicked ? (
           <Stack className="mobile_menu" justifyContent='center' spacing={2} bgcolor='#fff' >
-            <Link to='/'>Home</Link>
-            <Link to='/about'>About</Link>
-            <Link to='/blogs'>Blogs</Link>
-            <Link><Select name='Quicklinks' /></Link>
+            <Link to='/' className='navbar_item'>Home</Link>
+            <Link to='/about' className='navbar_item'>About</Link>
+            <Link to='/blog' className='navbar_item'>Blogs</Link>
+            <Link className='navbar_item'>
+              <Select name='Quicklinks' />
+            </Link>
 
             <Button variant='contained' sx={{
               bgcolor: '#30006d'

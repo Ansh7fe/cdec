@@ -1,7 +1,7 @@
 import { Button, Card, List, ListItem, Stack, Typography } from '@mui/material'
 import React, { useState } from 'react'
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-
+import "../styles.css"
 const Select = ({ name }) => {
   const [isClicked, setIsClicked] = useState(false);
   const handleClick = () => {
@@ -9,7 +9,14 @@ const Select = ({ name }) => {
   }
   return (
     <Stack >
-      <Button onClick={handleClick} sx={{ textTransform: 'initial', color: '#fff' }} >
+      <Button onClick={handleClick} sx={{
+        textTransform: 'initial', color: '#fff', bgcolor: {
+          xs: '#5624D0',
+          sm: '#5624D0',
+          lg: 'transparent',
+          md: 'transparent'
+        }
+      }} >
         <Typography color='white' variant='h6' fontWeight='600'>
           {name}
         </Typography>
@@ -19,22 +26,22 @@ const Select = ({ name }) => {
         {isClicked && (
           <List sx={{ position: 'absolute', boxShadow: '0px 3px 10px rgba(0, 0, 0, 0.25)', margin: "0.5em", zIndex: 99, bgcolor: '#fff' }}>
             <ListItem>
-              NPTEL
+              <a href='https://nptel.ac.in' className='quickLinks_item'>NPTEL</a>
             </ListItem>
             <ListItem>
-              GIAN
+              <a href='https://gian.iitkgp.ac.in' className='quickLinks_item'>GIAN</a>
             </ListItem>
             <ListItem>
-              Podcast
+              <a href='https://cel.mnit.ac.in/' className='quickLinks_item'>Podcasts</a>
             </ListItem>
             <ListItem>
-              SWAYAM
+              <a href='http://swayam.gov.in/' className='quickLinks_item'>SWAYAM</a>
             </ListItem>
             <ListItem>
-              ATAL
+              <a href='https://www.aicte-india.org/atal' className='quickLinks_item'>ATAL</a>
             </ListItem>
             <ListItem>
-              TEQIP
+              <a href='https://teqip.in' className='quickLinks_item'>TEQIP</a>
             </ListItem>
           </List>
         )}

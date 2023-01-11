@@ -8,7 +8,6 @@ function Card ({ name, link }) {
 					<div className="cover">
 						<img src='../../assets/imageDir.png' />
 					</div>
-
 					<div className="banner">
 						<div className="banner_content">{name}</div>
 					</div>

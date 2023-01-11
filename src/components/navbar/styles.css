@@ -45,6 +45,11 @@
     color: gold;
 }
 
+.quickLinks_item {
+    color: black;
+    text-decoration: none;
+}
+
 @media (max-width:800px) {
     .navbar_top {
         display: none;
